@@ -3,7 +3,7 @@ $(document).ready(function() {
     let city = $('#location').val();
     $('#location').val("");
     $.ajax({
-      url: `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=[API-KEY-GOES-HERE]`,
+      url: `http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=2668c07da7e23016b049c1d4656f0af8`,
       type: 'GET',
       data: {
         format: 'json'
@@ -13,7 +13,7 @@ $(document).ready(function() {
         $('.showTemp').text(`The temperature in Kelvins is ${response.main.temp}.`);
       },
       error: function() {
-        $('#errors').text("There was an error processing your request. Please try again.")
+        $('.errors').text("There was an error processing your request. Please try again.")
       }
     });
   });

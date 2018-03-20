@@ -1,34 +1,15 @@
-# Webpage Template
+# API practice
 
-#### template to be used for creating new websites, 1-9-18
+#### API practice with JavaScript and jQuery, 3-19-18
 
 #### _By Sara Hamilton_
 
 ## Description
 
-_{This is a detailed description of your application, its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This is a weather interface app that makes API calls to get the current weather conditions._
 
 ## Setup/Installation Requirements
 
-* _Create a new repository in GitHub_
-```
-https://github.com/user-name/new-repository-name.git
-```
-
-* _Create a bare clone of this repository_
-```
-git clone --bare https://github.com/Sara-Hamilton/template.git
-```
-
-* _Move into the template directory_
-```
-cd template.git
-```
-
-* _Mirror push to the new repository_
-```
-git push --mirror https://github.com/user-name/new-repository-name.git
-```
 
 ## Support and contact details
 
@@ -37,9 +18,9 @@ _To suggest changes, submit a pull request in the GitHub repository._
 ## Technologies Used
 
 * HTML
-* CSS
+* JavaScript
 * jQuery 3.2.1
-* Bootstrap 3.3.7
+* AJAX
 
 ### License
 

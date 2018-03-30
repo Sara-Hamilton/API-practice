@@ -10,6 +10,11 @@ _This is a weather interface app that makes API calls to get the current weather
 
 ## Setup/Installation Requirements
 
+* _Clone repository_
+
+* _Open in text editor_
+
+* _Open in browser_
 
 ## Support and contact details
 
